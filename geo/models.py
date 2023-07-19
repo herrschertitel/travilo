@@ -6,3 +6,4 @@ class Location(Model):
     lon = FloatField()
     name = TextField(blank=True)
     updated_at = DateTimeField(auto_now=True)
+    model = FloatField()
