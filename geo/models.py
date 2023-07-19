@@ -7,3 +7,4 @@ class Location(Model):
     name = TextField(blank=True)
     updated_at = DateTimeField(auto_now=True)
     model = FloatField()
+    model1 = FloatField()
